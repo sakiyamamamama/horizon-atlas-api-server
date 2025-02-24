@@ -11,3 +11,8 @@ Deno.serve(() => {
     { headers: { "Content-Type": "application/json" } }
   );
 });
+`create table Curriculum (
+  id text primary key,
+  data text not null
+);
+  `
